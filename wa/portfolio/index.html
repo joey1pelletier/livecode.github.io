@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joey Pelletier</title>
+
+<!-- Adding font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+<!-- Adding the Styling -->
+    <!-- Color Palette: I added the dark color as the background. For any contrast errors, I adjusted the brightness of used colors from palette -->
+    <!-- Hierarchy: Using the 1.25x ratio for sizing. Also used line-height for para text, and padding for li text for easier readability  -->
+
+<!-- Hmm, how do I make it where I can apply the same styling to ALL my pages?  -->
+
+    <style>
+        html {
+            font-family: "Montserrat", sans-serif;
+        }
+        body {
+            background-color: #080F17;
+        }
+        
+        h1 {
+            color: #8d9fc5;
+            font-size: 28px;
+        }
+
+        h2 {
+            color: #7193bc; 
+            font-size: 24px;
+        }
+
+        h3 {
+            color: #5b80a4;
+            font-size: 20px;
+        }
+
+        .project-link { 
+            color: #5b80a4;
+        }
+
+
+        p, ol, ul {
+            color: #e0e1dd;
+        }
+
+        a {
+            color: #cdd8fc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e0e1dd;
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 2em; 
+        }
+
+        li {
+            padding: 0.2em; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Joey Pelletier</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h2>About Joey</h2>
+            <img src="img/IMG_2605.jpg" alt="joey-pic" height="100" width="300">
+            <p>Hello! I'm a Web Developer and Designer studying B.S. Creative Technology and Design at CU Boulder.</p>
+        </section>
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <article>
+                <h3><a href="https://pelletier-4630-project1-mile3-wip.vercel.app/index.html" class="project-link">Setoshi - Mock Clothing Site</a></h3>
+                <img src="img/web-project-1.png" alt="picture of setoshi" height="100" width="180">
+                <p>Using HTML and CSS, this is a representation of a modern clothing store page! In the "New Arrivals" page with Javascript, there is a shopping cart feature that's saves a user's cart with the local storage API.</p>
+            </article>
+            <article>
+                <h3><a href="https://codepen.io/joey1pelletier/pen/gOEWrdb" class="project-link">Colorado Symphony Case Study Page</a></h3>
+                <img src="img/web-project-2.png" alt="pic of colorado symphony" height="100" width="180">
+                <p>After learning it's characteristics, I made a revamped site that represents the Colorado Symphony with HTML and responsive CSS.</p>
+            </article>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <h3>Development</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React.js</li>
+                    <li>Google Firebase</li>
+                </ul>
+            <h3>Design</h3>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>After Effects</li>
+                    <li>Figma</li>
+                </ul>
+        </section>
+    </main>
+    <footer>
+        <p>2025 - Joey Pelletier</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.about {
+    
+}
+
+.header-about {
+    display: flex;
+    flex-direction: row;
+}
